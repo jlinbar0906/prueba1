@@ -5,11 +5,11 @@ public class Ejercicio1 {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Introudzca un numero");
-        double a = sc.nextInt();
+        double a = sc.nextDouble();
         System.out.println("Introudzca un numero");
-        double b = sc.nextInt();
+        double b = sc.nextDouble();
         System.out.println("Introudzca un numero");
-        double c = sc.nextInt();
+        double c = sc.nextDouble();
 
         double resultado1 = a * b + (3 - c) / 2 * b;
         double resultado2 = Math.pow(((2 + a * b) / 4), (c + 2));
