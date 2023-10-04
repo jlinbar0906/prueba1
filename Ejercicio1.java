@@ -13,7 +13,7 @@ public class Ejercicio1 {
 
         double resultado1 = a * b + (3 - c) / 2 * b;
         double resultado2 = Math.pow(((2 + a * b) / 4), (c + 2));
-       double resultado3 = (-b + Math.pow((Math.pow(b, 2) - 4 * a * c), -2)) / 2 * a;
+        double resultado3 = (-b + Math.pow((Math.pow(b, 2) - 4 * a * c), -2)) / 2 * a;
 
         System.out.println(resultado1 + " " + resultado2 + " " + resultado3);
     }

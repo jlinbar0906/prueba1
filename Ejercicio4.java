@@ -17,7 +17,7 @@ public class Ejercicio4 {
         int valorMax = num1 > num2 && num1 > num3 ? num1 : num2 > num1 && num2 > num3 ? num2 : num3;
         System.out.println("El valor maximo es " + valorMax);
 
-        int valorMedio = (num1+num2+num3)/3;
+        int valorMedio = (num1 + num2 + num3) / 3;
         System.out.println("El valor medio es " + valorMedio);
 
     }
